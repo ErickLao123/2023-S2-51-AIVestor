@@ -24,36 +24,36 @@ const portFolio = () => {
 
     const pieData = [
         {
-            name: 'Seoul',
-            population: 21500000,
-            color: 'rgba(131, 167, 234, 1)',
-            legendFontColor: '#7F7F7F',
-            legendFontSize: 15,
-        },
-        {
-            name: 'Toronto',
-            population: 2800000,
-            color: '#F00',
-            legendFontColor: '#7F7F7F',
-            legendFontSize: 15,
-        },
-        {
-            name: 'Beijing',
-            population: 527612,
+            name: 'Stock 1',
+            price: 215,
             color: 'red',
             legendFontColor: '#7F7F7F',
             legendFontSize: 15,
         },
         {
-            name: 'New York',
-            population: 8538000,
+            name: 'Stock 2',
+            price: 280,
+            color: 'blue',
+            legendFontColor: '#7F7F7F',
+            legendFontSize: 15,
+        },
+        {
+            name: 'Stock 3',
+            price: 527612,
+            color: 'red',
+            legendFontColor: '#7F7F7F',
+            legendFontSize: 15,
+        },
+        {
+            name: 'Stock 4',
+            price: 853,
             color: '#ffffff',
             legendFontColor: '#7F7F7F',
             legendFontSize: 15,
         },
         {
-            name: 'Moscow',
-            population: 11920000,
+            name: 'Stock 5',
+            price: 1192,
             color: 'rgb(0, 0, 255)',
             legendFontColor: '#7F7F7F',
             legendFontSize: 15,
@@ -73,7 +73,7 @@ const portFolio = () => {
                 width={screenWidth}
                 height={220}
                 chartConfig={chartConfig}
-                accessor="population"
+                accessor="price"
                 backgroundColor="transparent"
                 paddingLeft="15"
                 absolute
