@@ -59,7 +59,6 @@ const portFolio = () => {
             legendFontSize: 15,
         },
     ];
-
     const chartConfig = {
         backgroundGradientFrom: '#fff',
         backgroundGradientTo: '#fff',
