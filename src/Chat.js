@@ -149,6 +149,8 @@ const Chat = () => {
           placeholder="Send a message..."
           value={inputText}
           onChangeText={setInputText}
+          placeholderTextColor={isDarkMode ? "#fff" : "black"} // Set the placeholder text color
+
         />
         <Button title="Send" onPress={() => sendMessage(inputText)} />
       </View>
